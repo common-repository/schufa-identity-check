@@ -1,0 +1,28 @@
+</Security>
+<Service timestamp='[TIMESTAMP]'>
+    <Online>
+        <Request/>
+    </Online>
+</Service>
+<Data language='DEU'>
+<Aktion teilnehmerkennung='[USER]' teilnehmerkennwort='[PASS]'>
+    <AnfrageIdentitaetsCheck version='1.0'>
+        <Produktinformationen>
+            <IdentitaetsCheckVariante>[IDENTCHECK_VERSION]</IdentitaetsCheckVariante>
+        </Produktinformationen>
+        <Verbraucherdaten>
+            <Vorname>[FIRST_NAME]</Vorname>
+            <Nachname>[LAST_NAME]</Nachname>
+            <Geschlecht>U</Geschlecht>
+            <Geburtsdatum>[BIRTHDATE]</Geburtsdatum>
+            <AktuelleAdresse>
+                <Strasse>[STREET]</Strasse>
+                <PLZ>[ZIPCODE]</PLZ>
+                <Ort>[CITY]</Ort>
+                <Land>DEU</Land>
+            </AktuelleAdresse>
+        </Verbraucherdaten>
+    </AnfrageIdentitaetsCheck>
+</Aktion>
+</Data>
+        </SchufaService>
